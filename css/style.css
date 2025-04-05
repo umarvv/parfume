@@ -1,0 +1,104 @@
+@import "./global.css";
+
+.container {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+  width: 600px;
+  height: 453px;
+  border-radius: 10px;
+}
+
+.about {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero_img {
+}
+
+.content_title {
+  font-family: "Fraunces";
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  margin-bottom: 24px;
+}
+.content_description {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 23px;
+  letter-spacing: 0px;
+  margin-bottom: 29px;
+}
+.price {
+  font-family: "Fraunces";
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 19px;
+  margin-bottom: 30px;
+}
+.pricing {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  color: #3d8168;
+}
+.sale_price {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 23px;
+  letter-spacing: 0px;
+  text-decoration: line-through;
+}
+
+.perfume_title {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+}
+
+.add_to_cart {
+  width: 236px;
+  height: 48px;
+  background-color: rgba(61, 129, 104, 1);
+  border: 0px;
+  border-radius: 8px;
+}
+
+.add_to_cart p {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0px;
+
+  color: rgba(255, 255, 255, 1);
+}
+
+button {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
