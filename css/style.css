@@ -101,4 +101,8 @@ button {
   gap: 20px;
   justify-content: center;
   align-items: center;
+  &:active {
+    background-color: rgba(26, 64, 50, 1);
+    cursor: pointer;
+  }
 }
